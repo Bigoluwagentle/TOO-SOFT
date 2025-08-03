@@ -1,0 +1,147 @@
+[
+    {
+        "image": "/image/product1.jpg",
+        "id": "1",
+        "category": "Top",
+        "price": 6.50
+        
+    },
+    {
+        "id": "2",
+        "category": "Top",
+        "price": 6.50,
+        "image": "/image/product2.jpg"
+    },
+    {
+        "id": "3",
+        "category": "Top",
+        "price": 6.50,
+        "image": "/image/product3.jpg"
+    },
+    {
+        "id": "4",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product4.jpg"
+    },
+    {
+        "id": "5",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product5.jpg"
+    },
+    {
+        "id": "6",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product6.jpg"
+    },
+    {
+        "id": "7",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product7.jpg"
+    },
+    {
+        "id": "8",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product8.jpg"
+    },
+    {
+        "id": "9",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product9.jpg"
+    },
+    {
+        "id": "10",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product10.jpg"
+    },
+    {
+        "id": "11",
+        "category": "Cap",
+        "price": 6.50,
+        "image": "/image/product11.jpg"
+    },
+    {
+        "id": "12",
+        "category": "Cap",
+        "price": 6.50,
+        "image": "/image/product12.jpg"
+    },
+    {
+        "id": "13",
+        "category": "Top",
+        "price": 6.50,
+        "image": "/image/product14.jpg"
+    },
+    {
+        "id": "14",
+        "category": "Cap",
+        "price": 6.50,
+        "image": "/image/product14.jpg"
+    },
+    {
+        "id": "15",
+        "category": "Cap",
+        "price": 6.50,
+        "image": "/image/product15.jpg"
+    },
+    {
+        "id": "16",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product16.jpg"
+    },
+    {
+        "id": "17",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product17.jpg"
+    },
+    {
+        "id": "18",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product18.jpg"
+    },
+    {
+        "id": "19",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product19.jpg"
+    },
+    {
+        "id": "20",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product20.jpg"
+    },
+    {
+        "id": "21",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product21.jpg"
+    },
+    {
+        "id": "22",
+        "category": "Top",
+        "price": 6.50,
+        "image": "/image/product22.jpg"
+    },
+    {
+        "id": "23",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product23.jpg"
+    },
+    {
+        "id": "24",
+        "category": "Trouser",
+        "price": 6.50,
+        "image": "/image/product9.jpg"
+    }
+]

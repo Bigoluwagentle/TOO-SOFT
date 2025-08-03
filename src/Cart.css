@@ -130,6 +130,7 @@
         }
         footer{
             flex-direction: column;
+            padding-bottom: 150px;
             > div{
                 margin-bottom: 40px;
             }

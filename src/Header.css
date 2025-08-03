@@ -88,6 +88,7 @@
 @media screen and (max-width: 770px){
     #headerContainer{
         header{
+            background-color: #555555;
             div#go{
                 display: none;
             }

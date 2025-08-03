@@ -3,7 +3,7 @@ import { CartProvider } from "./CartContent";
 import Header from "./Header";
 import Home from "./Home";
 import Products from "./Products";
-// import About from "./About";
+import NavBar from "./MobileNav";
 import Cart from "./Cart";
 import ContactForm from "./ContactForm";
 
@@ -19,6 +19,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/confirm" element={<ContactForm />} />
         </Routes>
+        <NavBar/>
       </Router>
     </CartProvider>
   );

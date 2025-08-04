@@ -4,6 +4,7 @@ import data from "./Data.json";
 import Test1 from "./Test/test1.mp4";
 import Test2 from "./Test/test2.mp4";
 import Test3 from "./Test/test3.mp4";
+import Test4 from "./Test/test4.jpg";
 import Logo from "./logo.jpg";
 import { Link } from "react-router-dom"; 
 const Home = () => { 
@@ -46,6 +47,7 @@ const Home = () => {
         <video src={Test1} autoPlay loop playsInline muted></video>
         <video src={Test2} autoPlay loop playsInline muted></video>
         <video src={Test3} autoPlay loop playsInline muted></video>
+        <img src={Test4} alt="Testimonial" width="375px" style={{marginTop : "20px"}} />
       </div>
 
       <footer>

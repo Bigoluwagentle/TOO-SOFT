@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 import Logo from "./logo.jpg";
 const Cart = () => {
   const { cartItems, removeFromCart, clearCart } = useCart();
-
+  // console.log(cartItems[0].price);
   const totalPrice = cartItems.reduce(
-    (total, item) => total + item.price * item.quantity,
+    (total, item) => total + parseFloat(item.price) * item.quantity,
     0
   );
-
   return (
     <div style={{ padding: "20px" }} id="CartContainer">
       <h3>Your Cart</h3>
@@ -24,15 +23,16 @@ const Cart = () => {
                 src={item.image} alt={item.category}/>
               <div>
                 <p><strong>Name:</strong> {item.id}</p>
-                <p><strong>Price:</strong> ${item.price.toFixed(2)}</p>
+                <p><strong>Price:</strong> ₦{(item.price)}</p>
                 <p><strong>Quantity:</strong> {item.quantity}</p>
-                <p><strong>Total:</strong> ${(item.price * item.quantity).toFixed(2)}</p>
+                <p><strong>Total:</strong> ₦{(parseFloat(item.price) * item.quantity)}</p>
+                
                 <button onClick={() => removeFromCart(item.id)}>Remove</button>
               </div>
             </div>
           ))}
           </summary>
-          <h3 id="total">Total Price: ${totalPrice.toFixed(2)}</h3>
+          <h3 id="total">Total Price: ₦{totalPrice}</h3>
           <button id="order" onClick={() => {
             document.getElementById("confirm").click();
           }}>Confirm Order</button>
@@ -47,17 +47,38 @@ const Cart = () => {
         <div>
           <Link to="/">Home</Link> 
           <Link to="/products">Products</Link> 
-          <Link to="/about">About</Link>
+          <Link to="/cart">Cart</Link>
           </div>
         <div>
-          <i class="fa-solid fa-phone"></i>
-          <i class="fa-brands fa-whatsapp"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-tiktok"></i>
+          
+          <i class="fa-brands fa-whatsapp" onClick={() => {
+            const go = document.createElement("a");
+            go.href = "https://wa.me/9075394735";
+            go.target = "_blank";
+            go.click();
+            document.querySelector("body").appendChild(go);
+            document.querySelector("body").removeChild(go);
+          }}></i>
+          <i class="fa-brands fa-instagram" onClick={() => {
+             const go = document.createElement("a");
+              go.href = "https://www.instagram.com/2soft_collection?igsh=MTg0cWgwaHP1cDk5bw==";
+              go.target = "_blank";
+              go.click();
+              document.querySelector("body").appendChild(go);
+              document.querySelector("body").removeChild(go);
+          }}></i>
+          <i class="fa-brands fa-tiktok" onClick={() => {
+             const go = document.createElement("a");
+              go.href = "https://www.tiktok.com/@2soft_collection?_t=ZS-8yZqapNlmil&_r=1";
+              go.target = "_blank";
+              go.click();
+              document.querySelector("body").appendChild(go);
+              document.querySelector("body").removeChild(go);
+          }}></i>
         </div>
         <div>
-          <button>Whatsapp</button>
-          <button>Email</button>
+          <button>Chat on Email</button>
+          <i class="fa-solid fa-phone"> +2349075394735</i>
         </div>
       </footer>
     </div>

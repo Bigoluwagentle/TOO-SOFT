@@ -1,8 +1,6 @@
 import { useCart } from "./CartContent";
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import Logo from "./logo.jpg";
 import "./ContactForm.css";
 const ContactForm = () => {
   const { cartItems } = useCart();
@@ -50,26 +48,6 @@ const ContactForm = () => {
                 <button type="submit">Send to WhatsApp</button>
             </form>
         </div>
-        <footer>
-            <div>
-                <img src={Logo} alt="Logo" width="100px" />
-            </div>
-            <div>
-                <Link to="/">Home</Link> 
-                <Link to="/products">Products</Link> 
-                <Link to="/about">About</Link>
-            </div>
-            <div>
-                <i class="fa-solid fa-phone"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-tiktok"></i>
-            </div>
-            <div>
-                <button>Whatsapp</button>
-                <button>Email</button>
-            </div>
-        </footer>
     </div>
     
   );

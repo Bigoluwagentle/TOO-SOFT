@@ -18,7 +18,7 @@ const Products = () => {
               <img src={item.image} alt={item.category} />
             </nav>
             <span>{item.category}</span>
-            <p>${item.price}</p>
+            <p>₦{item.price}</p>
             <button onClick={() => addToCart(item)}>Add to Cart</button>
           </div>
         ))}
@@ -30,17 +30,38 @@ const Products = () => {
         <div>
           <Link to="/">Home</Link>
           <Link to="/products">Products</Link>
-          <Link to="/about">About</Link>
+          <Link to="/cart">Cart</Link>
         </div>
         <div>
-          <i className="fa-solid fa-phone"></i>
-          <i className="fa-brands fa-whatsapp"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-tiktok"></i>
+          
+          <i class="fa-brands fa-whatsapp" onClick={() => {
+            const go = document.createElement("a");
+            go.href = "https://wa.me/9075394735";
+            go.target = "_blank";
+            go.click();
+            document.querySelector("body").appendChild(go);
+            document.querySelector("body").removeChild(go);
+          }}></i>
+          <i class="fa-brands fa-instagram" onClick={() => {
+             const go = document.createElement("a");
+              go.href = "https://www.instagram.com/2soft_collection?igsh=MTg0cWgwaHP1cDk5bw==";
+              go.target = "_blank";
+              go.click();
+              document.querySelector("body").appendChild(go);
+              document.querySelector("body").removeChild(go);
+          }}></i>
+          <i class="fa-brands fa-tiktok" onClick={() => {
+             const go = document.createElement("a");
+              go.href = "https://www.tiktok.com/@2soft_collection?_t=ZS-8yZqapNlmil&_r=1";
+              go.target = "_blank";
+              go.click();
+              document.querySelector("body").appendChild(go);
+              document.querySelector("body").removeChild(go);
+          }}></i>
         </div>
         <div>
-          <button>Whatsapp</button>
-          <button>Email</button>
+          <button>Chat on Email</button>
+          <i class="fa-solid fa-phone"> +2349075394735</i>
         </div>
       </footer>
     </div>

@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div id="headerContainer">
-      <video src="/bg-video.mp4" className="bg-video" autoPlay muted loop playsInline></video>
+      <video src="/bgVideo.mp4" className="bg-video" autoPlay muted loop playsInline></video>
       <header>
         <div>
           <img src={Logo} alt="Logo" />

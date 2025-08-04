@@ -42,6 +42,7 @@
             padding: 10px;
             transition: all 1.5s;
             border-radius: 3px;
+            background-color: rgba(0, 0, 0, 0.1);
             &:hover{
                 background-color: #134544;
                 color: white;

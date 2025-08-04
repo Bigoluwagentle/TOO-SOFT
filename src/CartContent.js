@@ -15,6 +15,7 @@ export const CartProvider = ({ children }) => {
       }
       return [...prev, { ...product, quantity: 1 }];
     });
+    addToCart.innerHTML = "HI"
   };
 
   const removeFromCart = (id) => {

@@ -87,6 +87,9 @@
 }
 @media screen and (max-width: 770px){
     #headerContainer{
+        .bg-video{
+            object-fit: contain;
+        }
         header{
             background-color: #555555;
             div#go{
@@ -95,6 +98,7 @@
         }
         > h1{
             width: 100%;
+            color: white;
         }
         > p{
             width: 100%;

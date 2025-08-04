@@ -87,7 +87,7 @@
 }
 @media screen and (max-width: 770px){
     #headerContainer{
-        min-height: 70vh;
+        min-height: 100vh;
         .bg-video{
             object-fit: contain;
         }

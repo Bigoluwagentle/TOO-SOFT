@@ -27,7 +27,7 @@ const Cart = () => {
                 <p><strong>Quantity:</strong> {item.quantity}</p>
                 <p><strong>Total:</strong> ₦{(parseFloat(item.price) * item.quantity)}</p>
                 
-                <button onClick={() => removeFromCart(item.id)}>Remove</button>
+                <button onClick={() => removeFromCart(item.id)} id="remove">Remove</button>
               </div>
             </div>
           ))}

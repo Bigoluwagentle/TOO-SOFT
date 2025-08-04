@@ -11,7 +11,7 @@ const ContactForm = () => {
     email: "",
   });
 
-  const yourPhoneNumber = "2349076956531";
+  const yourPhoneNumber = "2349058704410";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,7 +30,7 @@ const ContactForm = () => {
       0
     ).toFixed(2);
 
-    const message = `New Order Request:\n\nProducts:\n${productList}\n\nTotal: $${total}\n\nCustomer Info:\nName: ${form.name}\nPhone: ${form.phone}\nLocation: ${form.location}\nEmail: ${form.email}`;
+    const message = `New Order Request:\n\nProducts:\n${productList}\n\nTotal: ₦${total}\n\nCustomer Info:\nName: ${form.name}\nPhone: ${form.phone}\nLocation: ${form.location}\nEmail: ${form.email}`;
 
     const whatsappLink = `https://wa.me/${yourPhoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, "_blank");

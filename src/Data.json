@@ -3,12 +3,12 @@
         "image": "/image/product1.jpg",
         "id": "1",
         "category": "Top",
-        "price": 15000
+        "price": 10000
     },
     {
         "id": "2",
         "category": "Top",
-        "price": 15000,
+        "price": 20000,
         "image": "/image/product2.jpg"
     },
     {
@@ -20,13 +20,13 @@
     {
         "id": "3",
         "category": "Top",
-        "price": 25000,
+        "price": 20000,
         "image": "/image/product3.jpg"
     },
     {
         "id": "25",
         "category": "Kaftan",
-        "price": 15000,
+        "price": 30000,
         "image": "/image/product25.jpg"
     },
     {

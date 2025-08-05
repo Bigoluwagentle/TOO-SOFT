@@ -168,6 +168,18 @@
         }
     }
 }
+#pro{
+    display: block;
+    margin: 100px auto;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    background-color: #134544;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 @media screen and (max-width: 770px){
    .home-container{
         > span, > p, > h3{

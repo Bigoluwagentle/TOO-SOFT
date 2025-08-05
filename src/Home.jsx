@@ -42,6 +42,10 @@ const Home = () => {
           </div>
         ))}
       </div>
+      <Link to="/products">
+        <button id="pro">See All Products</button>
+      </Link>
+      
         <h3>Testimonial</h3>
       <div id="testimonial" style={{marginTop: "40px"}}>
         <video src={Test1} autoPlay loop playsInline muted></video>

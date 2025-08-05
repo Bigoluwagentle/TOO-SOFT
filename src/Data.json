@@ -160,5 +160,11 @@
         "category": "Scrub",
         "price": 15000,
         "image": "/image/product27.jpg"
+    },
+    {
+        "id": "28",
+        "category": "Cap",
+        "price": 8000,
+        "image": "/image/product30.jpg"
     }
 ]
